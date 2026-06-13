@@ -1,0 +1,21 @@
+{
+  "name": "clous",
+  "displayName": "Clous – SEC/EDGAR Filing Intelligence",
+  "version": "1.0.0",
+  "description": "Query SEC EDGAR filings, monitor material events, and extract intelligence with the Clous API. Bundles the Clous MCP server plus ready-made SEC analyst slash-commands.",
+  "author": { "name": "Clous", "url": "https://clous.ai" },
+  "homepage": "https://clous.ai",
+  "repository": "https://github.com/clousai/claude-code-plugin",
+  "license": "MIT",
+  "keywords": ["sec", "edgar", "filings", "monitoring", "insider-trading", "13f", "material-events"],
+  "mcpServers": "./.mcp.json",
+  "userConfig": {
+    "clous_api_key": {
+      "type": "string",
+      "title": "Clous API Key",
+      "description": "Your Clous API key (format: clous_live_...). Get a free key at https://clous.ai",
+      "sensitive": true,
+      "required": true
+    }
+  }
+}
