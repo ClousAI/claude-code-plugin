@@ -2,7 +2,7 @@
   "mcpServers": {
     "clous": {
       "command": "npx",
-      "args": ["-y", "@clous/mcp"],
+      "args": ["-y", "@clousai/mcp"],
       "env": {
         "CLOUS_API_KEY": "${user_config.clous_api_key}"
       }

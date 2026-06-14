@@ -28,7 +28,7 @@ Then enter your **Clous API key** when prompted (`clous_live_...`). Get a free k
 
 ## MCP server
 
-The plugin wires the Clous MCP server via `npx -y @clous/mcp` (stdio), using your configured `CLOUS_API_KEY`. The same server is also available hosted at `https://mcp.clous.ai/mcp` and works in **Cursor** and **Claude Desktop** directly — see [github.com/clousai/Mcp](https://github.com/clousai/Mcp).
+The plugin wires the Clous MCP server via `npx -y @clousai/mcp` (stdio), using your configured `CLOUS_API_KEY`. The same server is also available hosted at `https://mcp.clous.ai/mcp` and works in **Cursor** and **Claude Desktop** directly — see [github.com/clousai/Mcp](https://github.com/clousai/Mcp).
 
 The 49 tools cover filing search, full-text, financials (XBRL), insider trades, 13F holdings, Form D, advisers, 8-K events, AI briefings, grounded Q&A, and monitors/webhooks.
 
